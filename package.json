@@ -14,7 +14,6 @@
   "scripts": {
     "start": "cp ./src/mockData.json ./public/data.json && react-scripts start",
     "build": "react-scripts build && cp ./src/mockData.json ./build/data.json",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "watch 'npm run build' ./src"
   },
