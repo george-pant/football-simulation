@@ -94,6 +94,10 @@ export default class Simulation extends PureComponent {
 
         return buttonTexts[this.state.status];
       }
+
+      componentWillUnmount(){
+        if(this.state.intervalId) clearInterval(this.state.intervalId);
+      }
     
 render() {
     return (
